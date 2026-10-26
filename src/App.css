@@ -1,0 +1,10 @@
+#content div {
+  display: inline-block;
+  margin: 2px;
+  color: white;
+  padding: 8px;
+  width: 100px;
+  height: 14px;
+  background-color: orange;
+  text-align: center;
+}

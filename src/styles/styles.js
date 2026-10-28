@@ -21,6 +21,7 @@ export const Heading = styled.h1`
 export const Paragraph = styled.p`
   font-size: 1rem;
   color: #333;
+  padding: 0 16px;
 `;
 
 export const Page = styled.div`

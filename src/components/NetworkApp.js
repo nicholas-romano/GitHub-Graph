@@ -28,7 +28,7 @@ function NetworkApp({ width, height }) {
   return (
     <ContentWrapper>
       <Content>
-        <Heading>Search For a GitHub User</Heading>
+        <Heading>GitHub Graph</Heading>
         <Paragraph>
           Enter a GitHub username below and click the search button to view
           their network graph. When the graph is displayed, you can click on a

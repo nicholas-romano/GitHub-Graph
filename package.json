@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": ".",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "@reduxjs/toolkit": "^2.13.0",
     "@testing-library/dom": "^10.4.2",

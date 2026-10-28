@@ -6,7 +6,7 @@ import fetchGitHubData from "./fetchGitHubData";
 export const fetchProfileData = createAsyncThunk(
   "network/fetchProfileData",
   (login, { signal }) =>
-    fetchGitHubData(`/users/${encodeURIComponent(login)}`, signal),
+    fetchGitHubData(`/api/users/${encodeURIComponent(login)}`, signal),
   {
     condition: (login, { getState }) => {
       const { profiles, profileStatus } = getState().network;
